@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Checkout - Loco for Coco</title>
+    <link rel="stylesheet" href="Checkout.css">
 </head>
 <body>
 
 <header>
     <div class="loco-01">
         <figure>
-            <img src="imge-LFC/coco-logo.jpg">
+            <img src="Images/coco-logo.jpg" alt="Logo" title="Loco-For-Coco-Logo">
         </figure>
     </div>
     <nav>
@@ -21,6 +22,37 @@
         </ul>
     </nav>
 </header>
+<main>
+    <section>
+        <figure class="main-picture-01">
+           <!-- <img src="Images/CaocaoBags.jpg">-->
+        </figure>
+    </section>
+    <section class="formApplication">
 
+        <header><h2>Your details</h2></header>
+
+       <form class="form">
+           <label for="fname">First name: </label>
+           <input id="fname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+           <label for="lname">Last name: </label>
+           <input id="lname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+           <label for="address">Street address: </label>
+           <input id="address" type="text" name="address" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+           <label for="city">City: </label>
+           <input id="city" type="text" name="city" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+           <label for="zipcode">Zip code: </label>
+           <input id="zipcode" type="number" name="zipcode" pattern="[1-9 ]+" minlength="3" maxlength="25" required>
+           <label for="Country">Country: </label>
+           <input id="Country" type="text" name="Country" pattern="[A-Za-z ]+" minlength="3" maxlength="25" required>
+           <label for="email">Email: </label>
+           <input id="email" type="email" name="email">
+           <textarea class="textarea" id="textarea" type="text" name="textarea" maxlength="255" minlength="10" rows="5" cols="88e" required></textarea>
+           <button id="submit">Skicka</button>
+
+       </form>
+
+
+    </section>
 </body>
 </html>
