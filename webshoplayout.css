@@ -1,0 +1,128 @@
+body{
+    font-family: 'Amatic SC', cursive;
+}
+header{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    border-bottom: 2px solid #262216;
+}
+header > section{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+header > section > figure{
+    width: 230px;
+    height: 230px;
+}
+header > section > figure > img{
+    width: 225px;
+    height: 225px;
+}
+header > nav{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    align-self: stretch;
+}
+header > nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+header > nav > ul > li{
+    justify-self: auto;
+}
+header > nav > ul > li > a{
+    display: block;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+main > section:first-of-type{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.product{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+    border: solid 5px #97743a;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    color: white;
+    background-color: #262216;
+}
+.product:last-of-type{
+    margin: 0;
+}
+.product section:first-of-type{
+    width: 180px;
+    height: 180px;
+    border: solid 2px #97743a;
+    align-self: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.productdetails{
+    height: 100%;
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.price{
+    color: brown;
+}
+.buttonsection{
+    align-self: flex-end;
+ }
+ button{
+     background-color: brown;
+     color: white;
+     border: transparent 1px;
+     border-bottom-right-radius:25px;
+     font-family: 'Amatic SC', cursive;
+     font-size: 25px;
+     box-shadow: #49412c 2px 2px 2px 2px;
+ }
+ footer{
+     width: 100%;
+     height: 150px;
+     border-top: 2px solid #262216;
+ }
