@@ -1,0 +1,4 @@
+﻿#262216 (Dark brown)
+#49412c (Green brown)
+#97743a (dark beige/latte)
+#b0a18e (beige)
