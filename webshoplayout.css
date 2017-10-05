@@ -26,28 +26,38 @@ header > section > figure > img{
     height: 225px;
 }
 header > nav{
-    width: 70%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: flex-end;
+    align-content: center;
     align-self: stretch;
 }
 header > nav > ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 header > nav > ul > li{
     justify-self: auto;
+    margin-right: 25%;
+}
+header > nav > ul li:last-of-type{
+    margin: 0;
 }
 header > nav > ul > li > a{
     display: block;
     background-color: brown;
     color: white;
     text-decoration: none;
+    padding: 5px 16px;
+    font-size: 35px;
+    border: solid 2px #97743a;
+    border-bottom-right-radius:25px;
+    border-top-left-radius: 25px;
+    box-shadow: #49412c 2px 2px 2px 2px;
 }
 main{
     width: 100%;
@@ -115,8 +125,9 @@ main > section:first-of-type{
  button{
      background-color: brown;
      color: white;
-     border: transparent 1px;
+     border: solid 2px #97743a;
      border-bottom-right-radius:25px;
+     border-top-left-radius: 25px;
      font-family: 'Amatic SC', cursive;
      font-size: 25px;
      box-shadow: #49412c 2px 2px 2px 2px;
