@@ -1,0 +1,32 @@
+
+.loco-01 img {
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+ul {
+    list-style-type: none;
+    border: 1px solid black;
+}
+li {
+    display: inline-block;
+    color: white;
+    border-radius: 0.5em;
+    background-color: brown;
+    padding: 0.5em;
+    margin: 2em;
+    line-height: 1em;
+    word-wrap: break-word;
+
+}
+.main-picture-01 img {
+    height: 500px;
+    width: 100%;
+
+}
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
