@@ -1,0 +1,78 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.loco-01 img {
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    display: inline-block;
+    color: white;
+    border-radius: 0.5em;
+    background-color: brown;
+    padding: 0.5em;
+    margin: 2em;
+    line-height: 1em;
+    word-wrap: break-word;
+
+}
+.main-picture-01 img {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    clip: rect(2px,1300px,400px,20px);
+    margin-top: 50px;
+    margin-left: -120px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: solid #262216 5px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 5px;
+    align-items: center;
+    background-color: #b0a18e;
+    font-size: 10px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input {
+    border: solid #262216 2px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+textarea {
+    border: solid #262216 3px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+
+}
+
