@@ -2,3 +2,9 @@
 #49412c (Green brown)
 #97743a (dark beige/latte)
 #b0a18e (beige)
+
+Font(s):
+Amatic SC
+
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+font-family: 'Amatic SC', cursive;
