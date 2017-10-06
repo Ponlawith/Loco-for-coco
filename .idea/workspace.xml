@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb76129-9814-4154-b15c-17be48f559a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webshop.html" afterPath="$PROJECT_DIR$/Webshop.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webshoplayout.css" afterPath="$PROJECT_DIR$/webshoplayout.css" />
     </list>
@@ -23,8 +22,8 @@
           <file leaf-file-name="Webshop.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Webshop.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                <state relative-caret-position="462">
+                  <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -34,7 +33,7 @@
             <entry file="file://$PROJECT_DIR$/webshoplayout.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="252">
-                  <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+                  <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -57,8 +56,8 @@
           <file leaf-file-name="webshoplayout.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/webshoplayout.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1260">
-                  <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+                <state relative-caret-position="-538">
+                  <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +102,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/reset.css" />
-        <option value="$PROJECT_DIR$/Webshop.html" />
         <option value="$PROJECT_DIR$/webshoplayout.css" />
+        <option value="$PROJECT_DIR$/Webshop.html" />
       </list>
     </option>
   </component>
@@ -200,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507202125084</updated>
-      <workItem from="1507202127422" duration="12948000" />
+      <workItem from="1507202127422" duration="14295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12948000" />
+    <option name="totallyTimeSpent" value="14295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -264,18 +263,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webshop.html">
+    <entry file="file://$PROJECT_DIR$/webshoplayout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webshoplayout.css">
+    <entry file="file://$PROJECT_DIR$/Webshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="462">
+          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
           <folding />
         </state>
       </provider>
