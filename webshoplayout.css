@@ -8,40 +8,56 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     align-content: flex-end;
+    flex-wrap: wrap;
 }
 .tophead > section{
-    width: 250px;
+    width: 25%;
     height: 250px;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
 .tophead > section > figure{
     width: 230px;
     height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .tophead > section > figure > img{
     width: 225px;
     height: 225px;
 }
 .tophead > nav{
-    width: 80%;
+    width: 75%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 .tophead > nav > ul{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex: 1;
+}
+.tophead > nav > ul > li{
+    justify-self: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.tophead > nav > ul > li{
-    justify-self: auto;
-    margin-right: 25%;
+    flex-wrap: wrap;
 }
 .tophead > nav > ul li:last-of-type{
     margin: 0;
