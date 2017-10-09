@@ -16,7 +16,7 @@
     </section>
     <nav>
         <ul>
-            <li><a href="Index.html">Home</a></li>
+            <li><a href="index-home.html">Home</a></li>
             <li><a href="Webshop.html">Products</a></li>
             <li><a href="Contact.html">Contact</a></li>
             <li><a href="Checkout.html">Checkout</a></li>
@@ -26,9 +26,10 @@
 <main>
     <section>
         <figure>
-           <img class="flex-img" src="Images/CaocaoBags.jpg"">
+            <img class="flex-img" src="Images/CaocaoBags.jpg"">
         </figure>
     </section>
+    <section class="personal-data">
     <section class="form">
            <header><h1>Checkout details</h1></header>
            <form>
@@ -57,20 +58,35 @@
             <input type="radio" name="shipping-method" value="Express" checked><label>Express</label>
             <input type="radio" name="shipping-method" value="Home Delivery" checked><label>Home delivery</label>
         </form>
-            <button id="submit">Skicka</button>
+            <button id="submit">Confirm Order</button>
     </section>
     </section>
-
+    </section>
     <section class="order-details">
         <header><h1>Your items</h1></header>
 
+    <section class="product-sum">
     <section class="productlist">
         <article class="product">
             <section>
                 <figure>
-                    <img class="order-img" src="./Images/PinkBox.jpg" alt="Box of Pink Chocolate">                </figure>
+                    <img class="order-img" src="./Images/PinkBox.jpg" alt="Box of Pink Chocolate">
+                </figure>
+            </section>
+            <section class="productdetails">
+                <p>Belgian Chocolate Pralin</p>
+            </section>
+            <section class="productprice">
+                <p class="price">$3/pcs</p>
+            </section>
+            <section class="buttonsection">
+                <button id="remove" type="submit" value="submit">Remove</button>
             </section>
         </article>
+    </section>
+        <section class="order-sum-total">
+
+        </section>
     </section>
     </section>
 </main>
