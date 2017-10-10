@@ -112,21 +112,77 @@ main > section > figure{
     height: 500px;
 }
 
-.personal-data{
+.contactinfo{
     width: 30%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
+    align-self: stretch;
     margin-left: 5%;
     margin-right: 5%;
 }
-.form {
+.contactinfo header{
+    margin-top:0;
+}
+.googlemap{
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid #262216 5px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: wheat;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.googlemap figure{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.googlemap figure img{
+    width: 100%;
+    height: 100%;
+
+
+}
+.contact{
+    width: 76%;
     display: flex;
     flex-direction: column;
+    border: solid #262216 5px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-bottom: 10px;
+    background-color: wheat;
+    padding: 10px;
+    padding-right: 0;
+    font-size: 20px;
+}
+.contact p{
+    margin: 2px;
+}
+.contact h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     align-self: stretch;
     margin-left: 5%;
 }
@@ -140,6 +196,8 @@ main > section > figure{
 .form > form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     border: solid #262216 5px;
     border-bottom-right-radius: 25px;
@@ -152,7 +210,7 @@ main > section > figure{
 }
 
 .form > form > input {
-    max-width: 50%;
+    width: 40%;
 }
 
 
@@ -174,8 +232,8 @@ input {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
-    width: 50%;
-    height: auto;
+    width: 85%;
+    height: 250px;
     overflow: hidden;
     box-sizing: content-box;
 }
@@ -183,7 +241,7 @@ input {
 textarea {
     width: 100%;
     height: 100%;
-    padding-left: 5px;
+    padding: 10px;
     margin: 0;
     align-self: stretch;
 }
@@ -214,23 +272,8 @@ label {
 
 }
 
-.radio-buttons{
-    display: flex;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
-.radio-buttons > header{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.radio-buttons > form {
+.order-details > form {
     display: flex;
     flex-direction: row;
     border: solid #262216 5px;
@@ -241,6 +284,7 @@ label {
     width: 90%;
     padding: 15px;
     font-size: 20px;
+    align-self: stretch;
 
 }
 
@@ -250,7 +294,7 @@ label {
     justify-content: space-between;
 }
 
-.radio-buttons > form > label {
+.order-details > form > label {
     display: flex;
     vertical-align: middle;
     justify-content: space-between;
