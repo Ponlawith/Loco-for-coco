@@ -201,11 +201,12 @@ main > .productlist{
  }
  footer{
      width: 100%;
+     max-width: 100%;
      height: 200px;
      border-top: 2px solid #262216;
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: space-around;
      align-content: center;
      flex-wrap: wrap;
      color: #97743a;
@@ -220,6 +221,7 @@ main > .productlist{
      align-content: center;
      flex-wrap: wrap;
      padding-left: 10px;
+     margin-left: 10%;
  }
  footer section{
      width: 25%;
@@ -246,6 +248,7 @@ main > .productlist{
      display:flex;
      flex-direction: row;
      justify-content: flex-end;
+     margin-right: 10%;
  }
 .social-media-loco {
     display: flex;
