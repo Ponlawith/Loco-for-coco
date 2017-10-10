@@ -190,4 +190,9 @@ main > .productlist{
      width: 100%;
      height: 150px;
      border-top: 2px solid #262216;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-content: center;
+     flex-wrap: wrap;
  }

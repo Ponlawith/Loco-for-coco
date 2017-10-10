@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout - Loco for Coco</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Checkout.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+<body>
+<header class="tophead">
+    <section>
+        <figure>
+            <img src="./Images/coco-logo.jpg" alt="Logo" title="Loco For Coco Logo">
+        </figure>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index-home.html">Home</a></li>
+            <li><a href="Webshop.html">Products</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <figure>
+            <img class="flex-img" src="Images/CaocaoBags.jpg"">
+        </figure>
+    </section>
+    <section class="personal-data">
+    <section class="form">
+           <header><h1>Checkout details</h1></header>
+           <form>
+               <label for="fname"><strong>Name: </strong></label>
+               <input id="fname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+               <label for="lname">Last name: </label>
+               <input id="lname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+               <label for="address">Street address: </label>
+               <input id="address" type="text" name="address" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+               <label for="city">City: </label>
+               <input id="city" type="text" name="city" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+               <label for="zipcode">Zip code: </label>
+               <input id="zipcode" type="number" name="zipcode" pattern="[1-9 ]+" minlength="3" maxlength="25" required>
+               <label for="Country">Country: </label>
+               <input id="Country" type="text" name="Country" pattern="[A-Za-z ]+" minlength="3" maxlength="25" required>
+               <label for="email">Email: </label>
+               <input id="email" type="email" name="email">
+               <label for="textarea">If you have any special requests: </label>
+               <article class="border-textarea"><textarea class="textarea" id="textarea" name="textarea" maxlength="255" minlength="10" rows="5" cols="88e"></textarea>
+               </article>
+           </form>
+    <section class="radio-buttons">
+        <header><h3>Shipping method</h3></header>
+        <form class="shipment-form">
+            <div class="shipment"><input type="radio" name="shipping-method" value="Standard" checked><label>Standard</label></div>
+            <div class="shipment"><input type="radio" name="shipping-method" value="Express" checked><label>Express</label></div>
+            <div class="shipment"><input type="radio" name="shipping-method" value="Home Delivery" checked><label>Home delivery</label></div>
+        </form>
+            <button id="submit">Confirm Order</button>
+    </section>
+    </section>
+    </section>
+    <section class="order-details">
+        <header><h1>Your items</h1></header>
+
+    <section class="product-sum">
+    <section class="productlist">
+        <article class="product">
+            <section>
+                <figure>
+                    <img class="order-img" src="./Images/PinkBox.jpg" alt="Box of Pink Chocolate">
+                </figure>
+            </section>
+            <section class="productdetails">
+                <p>Belgian Chocolate Pralin</p>
+            </section>
+            <section class="productprice">
+                <p class="price">$3/pcs</p>
+            </section>
+            <section class="buttonsection">
+                <button id="remove" type="submit" value="submit">Remove</button>
+            </section>
+        </article>
+    </section>
+        <section class="order-sum-total">
+
+        </section>
+    </section>
+    </section>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
