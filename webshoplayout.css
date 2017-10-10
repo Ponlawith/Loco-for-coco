@@ -112,6 +112,7 @@ main > .productlist{
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items:center;
     flex-wrap: wrap;
     border: solid 5px #97743a;
     border-top-left-radius: 25px;
