@@ -90,7 +90,7 @@ body {
 }
 .main-article-1 {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1em;
@@ -167,6 +167,9 @@ footer .socialmedia{
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 10%;
+}
+.footer-article-1 {
+    text-align: centergi;
 }
 .social-media-loco {
     display: flex;
