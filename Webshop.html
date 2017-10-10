@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="webshoplayout.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header class="tophead">
@@ -30,6 +31,9 @@
         </figure>
     </section>
     <section class="productlist">
+        <header>
+            <h2>Our products</h2>
+        </header>
         <article class="product">
             <section>
                 <figure>
@@ -42,7 +46,9 @@
                 <p class="price">$3/pcs</p>
             </section>
             <section class="buttonsection">
-                <button type="submit" value="submit">Add to cart</button>
+                <form action="./Checkout.html">
+                    <button type="submit" value="submit">Add to cart</button>
+                </form>
             </section>
         </article>
         <article class="product">
@@ -57,7 +63,9 @@
                 <p class="price">$35/pcs</p>
             </section>
             <section class="buttonsection">
-                <button type="submit" value="submit">Add to cart</button>
+                <form action="./Checkout.html">
+                    <button type="submit" value="submit">Add to cart</button>
+                </form>
             </section>
         </article>
     <article class="product">
@@ -72,7 +80,9 @@
             <p class="price">$4/pcs</p>
             </section>
         <section class="buttonsection">
+            <form action="./Checkout.html">
                 <button type="submit" value="submit">Add to cart</button>
+            </form>
             </section>
         </article>
     <article class="product">
@@ -112,22 +122,33 @@
     </section>
 </main>
 <footer>
-<section>
-    <article>
-
-    </article>
-</section>
-    <section>
+    <section class="leftbox-footer">
+        <header>
+            <h2>Loco For Coco AB&trade;</h2>
+        </header>
         <article>
-
+            <p>Chokladgatan 1</p>
+            <p>254 36 helsingborg, Sweden</p>
+            <p>Phone: +46 42 22 22 22</p>
+            <p>E-mail: contact@locoforcoco.se</p>
+            <p>Opening hours: Mon-Fri 10am-6pm, Sat 10am-3pm Sun Closed</p>
         </article>
     </section>
     <section>
+        <article>
+            <h2>&copy; Loco For Coco AB&trade;, 2017</h2>
+        </article>
+    </section>
+    <section class="socialmedia">
         <header>
             <h2>Social Media</h2>
         </header>
         <article>
-
+            <ul class="social-media-loco">
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-google-plus" aria-hidden="true"> </i></a> </li>
+            </ul>
         </article>
     </section>
 </footer>

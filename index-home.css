@@ -1,51 +1,65 @@
-.main-header-1 {
+.tophead{
     width: 100%;
     height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-content: flex-end;
-    border-bottom: 2px solid #262216;
+    flex-wrap: wrap;
 }
-.section-header-1 {
-    width: 250px;
+.tophead > section{
+    width: 25%;
     height: 250px;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
-.picture-1 {
+.tophead > section > figure{
     width: 230px;
     height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.img-01 {
+.tophead > section > figure > img{
     width: 225px;
     height: 225px;
 }
-.nav-1 {
-    width: 80%;
+.tophead > nav{
+    width: 75%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     align-self: stretch;
+    flex-wrap: wrap;
 }
-.main-list-1 {
+.tophead > nav > ul{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex: 1;
+}
+.tophead > nav > ul > li{
+    justify-self: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
+    flex-wrap: wrap;
 }
-.list-2{
-    justify-self: auto;
-    margin-right: 25%;
-}
-.list-2:last-of-type {
+.tophead > nav > ul li:last-of-type{
     margin: 0;
 }
-.link-1 {
+.tophead > nav > ul > li > a{
     display: block;
     background-color: brown;
     color: white;
@@ -57,34 +71,34 @@
     border-top-left-radius: 25px;
     box-shadow: #49412c 2px 2px 2px 2px;
 }
-.main-picture-01 img {
-    height: 500px;
+.main-picture-01 img{
     width: 100%;
+    height: 500px;
     border: solid 1px black;
+    border-bottom-right-radius:25px;
     border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    margin-top: 5px;
-    padding: 0;
+    overflow: hidden;
 }
 .main-picture-01 img:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.01, 1.01);
     transition: transform 1s ease;
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
 body {
     font-family: 'Amatic SC', cursive;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+    font-size: 20px;
 }
 article {
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
     background-color: wheat;
     border-bottom-right-radius:25px;
     border-top-left-radius: 25px;
+    line-height: 30px;
 }
 .second-picture-01 img{
     height: 200px;
@@ -93,11 +107,15 @@ article {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     margin-bottom: 1em;
+    overflow: hidden;
 }
 .second-picture-01 img:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.01, 1.01);
     transition: transform 1s ease;
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+#line-1 {
+    border-bottom: 1px solid black;
 }
 .social-media-loco {
     display: flex;
@@ -130,6 +148,10 @@ article {
 .social-media-loco .social-media-loco-1:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+footer {
+    padding: 1em;
+    margin-top: 1em;
 }
 .footer-loco img {
     float: left;
