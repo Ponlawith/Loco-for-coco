@@ -31,40 +31,40 @@
         </figure>
     </section>
     <section class="personal-data">
-    <section class="form">
-           <header><h1>Checkout details</h1></header>
-           <form>
-               <label for="fname"><strong>Name: </strong></label>
-               <input id="fname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
-               <label for="lname">Last name: </label>
-               <input id="lname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
-               <label for="address">Street address: </label>
-               <input id="address" type="text" name="address" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
-               <label for="city">City: </label>
-               <input id="city" type="text" name="city" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
-               <label for="zipcode">Zip code: </label>
-               <input id="zipcode" type="number" name="zipcode" pattern="[1-9 ]+" minlength="3" maxlength="25" required>
-               <label for="Country">Country: </label>
-               <input id="Country" type="text" name="Country" pattern="[A-Za-z ]+" minlength="3" maxlength="25" required>
-               <label for="email">Email: </label>
-               <input id="email" type="email" name="email">
-               <label for="textarea">If you have any special requests: </label>
-               <article class="border-textarea"><textarea class="textarea" id="textarea" name="textarea" maxlength="255" minlength="10" rows="5" cols="88e"></textarea>
-               </article>
+        <section class="form">
+            <header><h1>Checkout details</h1></header>
+            <form>
+                <label for="fname"><strong>Name: </strong></label>
+                <input id="fname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="lname">Last name: </label>
+                <input id="lname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="address">Street address: </label>
+                <input id="address" type="text" name="address" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="city">City: </label>
+                <input id="city" type="text" name="city" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="zipcode">Zip code: </label>
+                <input id="zipcode" type="number" name="zipcode" pattern="[1-9 ]+" minlength="3" maxlength="25" required>
+                <label for="Country">Country: </label>
+                <input id="Country" type="text" name="Country" pattern="[A-Za-z ]+" minlength="3" maxlength="25" required>
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email">
+                <label for="textarea">If you have any special requests: </label>
+                <article class="border-textarea"><textarea class="textarea" id="textarea" name="textarea" maxlength="255" minlength="10" rows="5" cols="88e"></textarea>
+                </article>
 
-    <section class="radio-buttons">
-        <header><h3>Shipping method</h3></header>
-        <form class="shipment-form">
-            <div class="shipment"><input type="radio" name="shipping-method" value="Standard" checked><label>Standard</label></div>
-            <div class="shipment"><input type="radio" name="shipping-method" value="Express" checked><label>Express</label></div>
-            <div class="shipment"><input type="radio" name="shipping-method" value="Home Delivery" checked><label>Home delivery</label></div>
-        </form>
-        <div class="submit-button">
-            <button id="submit">Confirm Order</button>
-        </div>
-           </form>
-    </section>
-    </section>
+                <section class="radio-buttons">
+                    <header><h3>Shipping method</h3></header>
+                    <div class="shipment-form">
+                        <div class="shipment"><input type="radio" name="shipping-method" value="Standard" checked><label>Standard</label></div>
+                        <div class="shipment"><input type="radio" name="shipping-method" value="Express" checked><label>Express</label></div>
+                        <div class="shipment"><input type="radio" name="shipping-method" value="Home Delivery" checked><label>Home delivery</label></div>
+                    </div>
+                    <div class="submit-button">
+                        <button id="submit">Confirm Order</button>
+                    </div>
+                </section>
+            </form>
+        </section>
     </section>
     <section class="order-details">
         <header><h1>Your items</h1></header>
@@ -84,7 +84,7 @@
                 <p class="price">$3/pcs</p>
             </section>
             <section class="buttonsection">
-                <button id="remove" type="submit" value="submit">Remove</button>
+                <button id="remove" type="submit" value="submit"><a class="remove-button-style" href="Checkout-empty.html">Remove</a></button>
             </section>
         </article>
     </section>
@@ -118,14 +118,14 @@
             <p>Opening hours: Mon-Fri 10am-6pm, Sat 10am-3pm Sun Closed</p>
         </article>
     </section>
-    <section class="middle">
-        <article>
+    <section>
+        <header class="middle-name">
             <h2>&copy; Loco For Coco AB&trade;, 2017</h2>
-        </article>
+        </header>
     </section>
     <section class="socialmedia">
         <header>
-            <h2>Social Media</h2>
+            <h2>Follow us!</h2>
         </header>
         <article>
             <ul class="social-media-loco">
