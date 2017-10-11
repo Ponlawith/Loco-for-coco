@@ -474,12 +474,18 @@ footer section{
     align-content: center;
     flex-wrap: wrap;
 }
-footer section header{
+
+.middle-name {
+    display: flex;
+    justify-content: center;
+}
+footer section header {
     width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
 }
+
 footer .socialmedia header{
     display:flex;
     flex-direction: row;

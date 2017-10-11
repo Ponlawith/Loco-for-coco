@@ -148,13 +148,11 @@ main > section > figure{
     background-color: wheat;
     margin-bottom: 10px;
     font-size: 20px;
-
 }
 
 .form > form > input {
     max-width: 50%;
 }
-
 
 input {
     border: solid #262216 2px;
@@ -246,7 +244,7 @@ label {
 
 .shipment-form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -384,6 +382,11 @@ label {
     font-size: 18px;
     box-shadow: #49412c 2px 2px 2px 2px;
 }
+
+.remove-button-style {
+    text-decoration: none;
+    color: white;
+}
 .order-sum-total{
     width: 20%;
     height: 75px;
@@ -445,6 +448,11 @@ footer section{
     align-content: center;
     flex-wrap: wrap;
 }
+
+.middle-name {
+    display: flex;
+    justify-content: center;
+}
 footer section header {
     width: 100%;
     height: auto;
@@ -452,11 +460,6 @@ footer section header {
     align-items: center;
 }
 
-section .middle {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
 footer .socialmedia header{
     display:flex;
     flex-direction: row;
