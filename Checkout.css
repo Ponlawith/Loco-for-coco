@@ -92,13 +92,13 @@ main {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-main > section{
+main > .maintoppic {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
 }
-main > section > figure{
+main > .maintoppic > figure{
     width: 100%;
     height: 500px;
     box-sizing: border-box;
@@ -151,7 +151,7 @@ main > section > figure{
 }
 
 .form > form > input {
-    max-width: 50%;
+    width: 50%;
 }
 
 input {
@@ -506,4 +506,179 @@ footer .socialmedia{
 .social-media-loco .social-media-loco-1:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+@media (max-width: 768px) {
+    body{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .tophead{
+        width: 100vw;
+        height: 50px;
+        background-color: #262216;
+    }
+    .tophead section{
+        visibility: hidden;
+        display: none;
+    }
+
+    .tophead nav{
+        width: 100vw;
+        height: auto;
+    }
+    .tophead nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+    .tophead nav ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .tophead nav ul li a{
+        display: inline-block;
+        padding: 8px 8px;
+        background-color: #262216;
+        color: wheat;
+        border: none;
+        box-shadow: none;
+        font-size: 15px;
+        align-self: center;
+    }
+    p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    main {
+        background-color: wheat;
+        border-top: solid 5px #97743a;
+        border-bottom: solid 5px #97743a;
+        box-sizing: border-box;
+    }
+    main > .maintoppic {
+        visibility: hidden;
+        display: none;
+    }
+    .form header {
+        border-left: solid 5px black;
+        border-right: solid 5px black;
+    }
+
+    .radio-buttons header {
+        border: none;
+    }
+
+    .order-details header {
+        border-left: solid 5px black;
+        border-right: solid 5px black;
+    }
+    .personal-data {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .form {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .form form {
+        border-radius: 0;
+        margin: 0;
+    }
+    .form > form > input {
+        width: 80%;
+    }
+    .border-textarea {
+        width: 80%;
+    }
+    .order-details {
+        margin: 0;
+        width: 100%;
+    }
+    .product-sum {
+        border-radius: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .productlist {
+        width: 100%;
+    }
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .order-sum-total {
+        margin: 0;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .checkout-confirmation {
+        margin: 0;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+    footer{
+        height: auto;
+        margin: 0;
+        background-color: #262216;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        color: wheat
+    }
+    footer .leftbox-footer{
+        visibility: hidden;
+        display: none;
+    }
+    footer section{
+        width: 100%;
+        height: auto;
+        border-bottom: solid 2px #97743a;
+    }
+    footer .socialmedia{
+        width: 100%;
+        justify-content: center;
+    }
+    footer .socialmedia header{
+        justify-content: center;
+    }
 }
