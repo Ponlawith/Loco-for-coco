@@ -1,5 +1,7 @@
 body{
     font-family: 'Amatic SC', cursive;
+    background-image: url("Images/wedding-1.jpg");
+    background-size: contain;
 }
 .tophead{
     width: 100%;
@@ -10,7 +12,7 @@ body{
     align-content: flex-end;
     flex-wrap: wrap;
 }
-.tophead > section{
+.tophead > section:first-of-type{
     width: 25%;
     height: 250px;
     display: flex;
@@ -31,7 +33,7 @@ body{
     height: 225px;
 }
 .tophead > nav{
-    width: 75%;
+    width: 55%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -73,6 +75,33 @@ body{
     border-bottom-right-radius:25px;
     border-top-left-radius: 25px;
     box-shadow: #49412c 2px 2px 2px 2px;
+}
+.searchbar{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-self: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.searchbar form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+.searchbar form input{
+    width: 80%;
+    height: 30px;
+    border: 2px solid #97743a;
+    color: white;
+    background-color: brown;
+}
+.search-box-button{
+    background-color: wheat;
 }
 main{
     width: 100%;
@@ -190,7 +219,7 @@ main > .productlist{
 .buttonsection{
     align-self: flex-end;
  }
- button{
+ .add-to-cart{
      background-color: brown;
      color: white;
      border: solid 2px #97743a;
@@ -396,9 +425,15 @@ footer .socialmedia{
         font-size: 10px;
     }
     .buttonsection{
+        display: flex;
+        justify-items: center;
         width: 15%;
         height: 100%;
-        align-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .add-to-cart{
+        font-size: 15px;
     }
     footer{
         height: auto;

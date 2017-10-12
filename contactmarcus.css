@@ -113,28 +113,32 @@ main > section > figure{
 }
 
 .contactinfo{
-    width: 30%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
-    align-self: stretch;
-    margin-left: 5%;
-    margin-right: 5%;
+    border: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .contactinfo header{
     margin-top:0;
 }
 .googlemap{
     display: flex;
-    width: 80%;
+    width: 100%;
     height: auto;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.googlemap .map{
     border: solid #262216 5px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -142,7 +146,7 @@ main > section > figure{
     overflow: hidden;
     box-sizing: border-box;
 }
-.googlemap figure{
+.googlemap .map figure{
     width: 100%;
     height: auto;
     display: flex;
@@ -151,14 +155,14 @@ main > section > figure{
     align-self: center;
     flex-wrap: wrap;
 }
-.googlemap figure img{
+.googlemap .map figure img{
     width: 100%;
     height: 100%;
 
 
 }
 .contact{
-    width: 76%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     border: solid #262216 5px;
@@ -167,7 +171,6 @@ main > section > figure{
     margin-bottom: 10px;
     background-color: wheat;
     padding: 10px;
-    padding-right: 0;
     font-size: 20px;
 }
 .contact p{
@@ -179,7 +182,7 @@ main > section > figure{
 }
 
 .form {
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
