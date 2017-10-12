@@ -107,6 +107,18 @@ body {
     font-size: 20px;
     background-image: url("Images/wedding-1.jpg");
 }
+.main-picture-01 {
+    width: 100%;
+    height: 500px;
+    border-bottom-right-radius:25px;
+    border-top-left-radius: 25px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main-picture-01 img{
+    width: 100%;
+    height: 500px;
+}
 .main-article-1 {
     text-align: center;
     padding: 1em;
