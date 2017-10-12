@@ -78,12 +78,14 @@ body{
 }
 .searchbar{
     width: 20%;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
     align-content: flex-start;
     flex-wrap: wrap;
     justify-self: flex-end;
-    padding: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
     box-sizing: border-box;
 }
 .searchbar form{
@@ -101,7 +103,9 @@ body{
     background-color: brown;
 }
 .search-box-button{
-    background-color: wheat;
+    background: none;
+    border: none;
+    height: 35px;
 }
 main{
     width: 100%;
