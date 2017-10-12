@@ -307,7 +307,7 @@ footer .socialmedia{
     }
 
     .tophead nav {
-        width: 100vw;
+        width: 100%;
         height: auto;
     }
 
@@ -340,6 +340,19 @@ footer .socialmedia{
         box-shadow: none;
         font-size: 20px;
         align-self: center;
+    }
+    .searchbar{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .searchbar form input {
+        height: 20px;
+    }
+    .search-box-button {
+        height: 27px;
     }
 
     p {
