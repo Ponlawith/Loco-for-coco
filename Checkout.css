@@ -576,7 +576,7 @@ footer .socialmedia{
     .tophead nav{
         width: 100%;
         height: auto;
-        margin-bottom: 10px;
+
     }
     .tophead nav ul{
         list-style-type: none;
@@ -615,6 +615,9 @@ footer .socialmedia{
     }
     .searchbar form input {
         height: 20px;
+    }
+    .search-box-button {
+        height: 27px;
     }
     p{
         font-size: 10px;

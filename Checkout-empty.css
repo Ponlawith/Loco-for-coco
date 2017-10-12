@@ -168,7 +168,7 @@ main > .maintoppic > figure{
 
 }
 
-.form > form {
+.form > .form-input {
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -181,11 +181,8 @@ main > .maintoppic > figure{
     font-size: 20px;
 }
 
-.form > form > input {
+.form > .form-input > input {
     width: 50%;
-}
-
-input {
     border: solid #262216 2px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -194,6 +191,15 @@ input {
     padding-left: 5px;
 }
 
+/*input {
+    border: solid #262216 2px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+*/
 .border-textarea {
     display: flex;
     flex-wrap: wrap;
@@ -569,7 +575,6 @@ footer .socialmedia{
     .tophead nav{
         width: 100%;
         height: auto;
-        margin-bottom: 10px;
     }
     .tophead nav ul{
         list-style-type: none;
@@ -608,6 +613,9 @@ footer .socialmedia{
     }
     .searchbar form input {
         height: 20px;
+    }
+    .search-box-button {
+        height: 27px;
     }
     p{
         font-size: 10px;
