@@ -1,6 +1,6 @@
 body {
     font-family: 'Amatic SC', cursive;
-
+    background-image: url("Images/wedding-1.jpg");
 }
 h1 {
     margin: 20px;
@@ -20,7 +20,7 @@ h3 {
     align-content: flex-end;
     flex-wrap: wrap;
 }
-.tophead > section{
+.tophead > section:first-of-type {
     width: 25%;
     height: 250px;
     display: flex;
@@ -41,7 +41,7 @@ h3 {
     height: 225px;
 }
 .tophead > nav{
-    width: 75%;
+    width: 55%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -84,7 +84,38 @@ h3 {
     border-top-left-radius: 25px;
     box-shadow: #49412c 2px 2px 2px 2px;
 }
-main {
+.searchbar{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-self: flex-end;
+    padding-right: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.searchbar form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+.searchbar form input{
+    width: 80%;
+    height: 30px;
+    border: 2px solid #97743a;
+    color: white;
+    background-color: brown;
+}
+.search-box-button{
+    background: none;
+    border: none;
+    height: 35px;
+}
+    main {
     width: 100%;
     height: auto;
     display: flex;
@@ -520,17 +551,25 @@ footer .socialmedia{
     }
     .tophead{
         width: 100vw;
-        height: 50px;
+        height: auto;
         background-color: #262216;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
     }
-    .tophead section{
+    .tophead section:first-of-type{
         visibility: hidden;
         display: none;
     }
-
+    .maintoppic{
+        visibility: hidden;
+        display: none;
+    }
     .tophead nav{
-        width: 100vw;
+        width: 100%;
         height: auto;
+        margin-bottom: 10px;
     }
     .tophead nav ul{
         list-style-type: none;
@@ -557,8 +596,18 @@ footer .socialmedia{
         color: wheat;
         border: none;
         box-shadow: none;
-        font-size: 15px;
+        font-size: 20px;
         align-self: center;
+    }
+    .searchbar{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .searchbar form input {
+        height: 20px;
     }
     p{
         font-size: 10px;
@@ -610,7 +659,6 @@ footer .socialmedia{
         align-content: center;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 0;
     }
     .form form {
         border-radius: 0;
@@ -652,7 +700,6 @@ footer .socialmedia{
         height: auto;
         display: flex;
         flex-wrap: wrap;
-
 
     }
     footer{
